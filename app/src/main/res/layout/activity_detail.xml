@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/LblDetailPlanetName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        />
+    <ImageView
+        android:id="@+id/ImgDetailPlanetImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        />
+    <GridView
+        android:id="@+id/LstSatellites"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/BtnBack"
+        android:text="Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        />
+</LinearLayout>
